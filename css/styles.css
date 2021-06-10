@@ -198,6 +198,10 @@ header {
 
   /* Corps de page */
 
+main {
+    display: flex;
+}
+
   /* Hébergement à Marseille (section principale) */
 
 .star {
@@ -215,6 +219,12 @@ header {
     display: flex;
     flex-direction: column;
     background-color: #F2F2F2;
+    border-radius: 20px 20px 20px 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 46px;
+    padding-bottom: 46px;
+    margin-right: 40px;
 }
 
 .hosting_content {
@@ -230,8 +240,8 @@ header {
     width: 245px;
     height: 200px;
     background-color: white;
-    border-radius: 10px 10px 10px 10px;
-    margin-bottom: 10px;
+    border-radius: 20px 20px 20px 20px;
+    margin-bottom: 25px;
     padding: 5px;
     box-shadow: 5px 5px 10px #d1d1d1;
 }
@@ -240,8 +250,8 @@ header {
     height: 115px;
     width: auto;
     margin-bottom: 12px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 h3 {
@@ -255,3 +265,67 @@ h3 {
     margin-block-start: 0px;
     margin-bottom: 6px;
 }
+
+/* Aside, les plus populaires */
+.img_graph {
+    width: 22px;
+    height: 18px;
+}
+
+.img_card_aside {
+    width: 127px;
+    height: 134px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+aside {
+    background-color: #F2F2F2;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    border-radius: 20px 20px 20px 20px;
+
+}
+
+.aside_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 10px;
+}
+
+.card_aside {
+    display: flex;
+    width: 343px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    padding: 5px;
+}
+
+.margin_card {
+    margin-bottom: 30px;
+}
+
+.aside_column {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-left: 20px;
+}
+
+.container_stars {
+    margin-top: 45px;
+}
+
+.h_aside {
+    display: block;
+    margin-block-start: 15px;
+}
+
+
+
