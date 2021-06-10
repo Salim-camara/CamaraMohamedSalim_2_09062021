@@ -50,6 +50,7 @@ ul {
   /* Header */
 
 
+/* Champ de recherche */
 header {
     margin-left: 50px;
     margin-right: 50px;
@@ -97,6 +98,72 @@ header {
     width: 135px;
     height: 50px;
 } 
+
+.fas {
+    width: 100px;
+    height: 100px;
+}
+
+.fa-bone {
+    width: 100px;
+    height: 100px;
+}
+
+
+/* Filtre */
+.container_filter {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    width: 100%;
+}
+
+.filter_title {
+    font-weight: 900;
+    font-size: 1.15em;
+}
+
+.filter_content {
+    margin-left: 30px;
+    display: flex;
+    
+}
+
+.filter_logo {
+    height: 51px;
+    width: 51px;
+    background-color: #DEEBFF;
+    border: none;
+    border-radius: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter {
+    margin-right: 25px;
+    background-color: white;
+    border: 2px solid #F2F2F2;
+    border-left: none;
+    border-radius: 50px;
+    height: 49px;
+    display: flex;
+    align-items: center;
+
+}
+
+.text_filter {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bold;
+}
+
+
+
+
+.img_filter {
+    height: 20px;
+}
 
 
 
