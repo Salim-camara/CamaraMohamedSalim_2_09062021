@@ -166,4 +166,31 @@ header {
 }
 
 
+/* Information */
 
+.container_info {
+    display: flex;
+    align-items: center;
+    
+}
+
+.container_info_img {
+    border: 1px solid #F2F2F2;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 23px;
+    width: 23px;
+
+
+}
+
+.info_img {
+    height: 12px;
+    width: auto;
+}
+
+.info_text {
+    padding-left: 12px;
+}
