@@ -1,0 +1,500 @@
+/* Police */
+
+@font-face {
+font-family: "ralewaythin";
+src: url("../fonts/raleway-webfont.woff2") format("woff2"), url("fonts/raleway-webfont.woff") format("woff");
+font-weight: normal;
+font-style: normal;
+}
+
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: "ralewaythin";
+    font-size: 35px;
+}
+
+
+    /* Nav barre */
+
+
+.container_nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 100%;
+}  
+
+.img_reservia {
+    width: 94px;
+    height: auto;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+ul {
+    display: block;
+    margin-block-start: 0px;
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+    text-decoration: none;
+    list-style-type: none;
+    padding-right: 80px;
+}
+
+li {
+    padding-top: 50px;
+}
+
+.hosting_nav {
+    border-top: 2px solid #0065FC;
+}
+
+    .singin_nav {
+    padding-left: 70px;
+}
+
+.activity_nav {
+    padding-left: 70px;
+}
+
+
+    /* Header */
+
+
+/* Champ de recherche */
+header {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+}
+
+.container_search {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 40px 40px 40px 40px;
+    border: 2px solid #F2F2F2;
+    box-sizing: border-box;
+    border-left: none;
+    border-right: none;
+    height: 150px;
+    margin-left: 25px;
+    margin-right: 25px;
+}  
+
+.search_loc {
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #F2F2F2;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+    width: 15%;
+    height: 100%;
+}
+
+
+.img_loc {
+    height: 50px;
+    width: auto;
+}
+
+.search_input {
+    border: none;
+    width:  80%;
+    height: 97%;
+}
+
+
+.search_input::placeholder {
+    font-family: "ralewaythin";
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.search_recherche {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 40px 40px 40px 40px;
+    background-color: #0065FC;
+    color: white;
+    width: 18%;
+    height: 100%;
+} 
+
+.text_hidden {
+    display: none;
+}
+
+.img_hidden {
+    height: 50px;
+    width: auto;
+}
+
+.fas {
+    width: 100px;
+    height: 100px;
+}
+
+.fa-bone {
+    width: 100px;
+    height: 100px;
+}
+
+
+/* Filtre */
+.container_filter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 25px;
+    margin-top: 25px;
+    width: 100%;
+}
+
+.filter_title {
+    font-weight: 900;
+    font-size: 60px;
+    margin-left: 10px;
+}
+
+.filter_content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filter_logo {
+    height: 101px;
+    width: 101px;
+    background-color: #DEEBFF;
+    border: none;
+    border-radius: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter {
+    margin-right: 25px;
+    margin-bottom: 25px;
+    background-color: white;
+    border: 2px solid #F2F2F2;
+    border-left: none;
+    border-radius: 50px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+
+}
+
+.text_filter {
+    padding-left: 20px;
+    padding-right: 40px;
+    font-size: 60px;
+    font-weight: 300;
+}
+
+
+
+
+.img_filter {
+    height: 20px;
+}
+
+
+/* Information */
+
+.container_info {
+    display: flex;
+    align-items: center;
+
+}
+
+.container_info_img {
+    border: 1px solid #F2F2F2;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 23px;
+    width: 23px;
+
+
+}
+
+.info_img {
+    height: 12px;
+    width: auto;
+}
+
+.info_text {
+    padding-left: 12px;
+}
+
+
+    /* Corps de page */
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+    /* Hébergement à Marseille (section principale) */
+
+.star {
+    height: 12px;
+    width: auto;
+}
+
+.section_1 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    margin-bottom: 65px;
+    width: 100%;
+}
+
+.section_hosting {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+h4 {
+    display: block;
+    margin-block-end: 0px;
+    margin-top: 5px;
+}
+
+.hosting_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 5px 5px 20px #d1d1d1;
+    margin-bottom: 25px;
+    padding: 5px;
+    
+}
+
+.img_card {
+    height: 60%;
+    width: auto;
+    margin-bottom: 12px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+h3 {
+    display: block;
+    margin-block-start: 0px;
+    margin-bottom: 8px;
+}
+
+.price {
+    display: block;
+    margin-block-start: 0px;
+    margin-bottom: 6px;
+}
+
+.container_stars {
+    margin-top: 0px;
+}
+
+/* Aside, les plus populaires */
+.img_graph {
+    width: 22px;
+    height: 18px;
+}
+
+.img_card_aside {
+    width: 40%;
+    height: 100%;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+aside {
+    background-color: #F2F2F2;
+    height: 1200px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.aside_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0px;
+}
+
+.all_card_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+.card_aside {
+    display: flex;
+    width: 95%;
+    height: 30%;
+    margin-bottom: 11px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 5px 5px 20px #d1d1d1;
+    background-color: white;
+    padding: 5px;
+}
+
+.aside_column {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-left: 20px;
+}
+
+.container_stars {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.h_aside {
+    display: block;
+    margin-block-start: 15px;
+}
+
+
+/* Activités à Marseille */
+
+.section_2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    width: 100%;
+    height: 445px;
+}
+
+.activity {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.all_card_activity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.big_card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 5px 5px 20px #d1d1d1;
+    background-color: white;
+    overflow: hidden;
+    height: 350px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.img_big_card {
+    height: 70%;
+    image-rendering: crisp-edges;
+}
+
+.h3_activity {
+    margin-bottom: 0px;
+    padding-top: 13px;
+    padding-left: 10px;
+}
+
+.small_cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.lonely_small_card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: 5px 5px 20px #d1d1d1;
+    height: 350px;
+}
+
+.img_small_card {
+    height: 79%;
+    width: 100%;
+}
+
+
+
+/* Pied de page */
+
+footer {
+    height: 218px;
+    margin-top: 115px;
+    background-color: #F2F2F2;
+    display: flex;
+    display: none;
+
+
+}
+
+.container_footer_1 {
+    margin-top: 50px;
+}
+
+.container_footer_2 {
+    margin-top: 50px;
+}
+
+.container_footer_3 {
+    margin-top: 50px;
+}
+
+.h3_footer {
+    font-weight: 900;
+}
