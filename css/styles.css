@@ -1,18 +1,23 @@
   /* Police */
   
 @font-face {
- font-family: "ralewaythin";
- src: url("../fonts/raleway-webfont.woff2") format("woff2"), url("fonts/raleway-webfont.woff") format("woff");
- font-weight: normal;
- font-style: normal;
+ font-family: Raleway;
+ src: url("../fonts/Raleway-Regular.ttf");
+}
+
+@font-face {
+    font-family: Raleway;
+    font-weight: bold;
+    src: url("../fonts/Raleway-Bold.ttf");
 }
 
 
 body {
     padding: 0px;
     margin: 0px;
-    font-family: "ralewaythin";
+    font-family: Raleway;
 }
+
 
   /* Nav barre */
 
@@ -89,6 +94,10 @@ header {
     width: auto;
 }
 
+.img_hidden {
+    display: none;
+}
+
 .search_input {
     border-left: none;
     border-right: none;
@@ -109,6 +118,7 @@ header {
     border-bottom-right-radius: 10px;
     background-color: #0065FC;
     color: white;
+    font-weight: bold;
     width: 135px;
     height: 50px;
 } 
@@ -373,13 +383,12 @@ aside {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 445px;
 }
 
 .activity {
     display: flex;
     justify-content: space-between;
-    height: 100%;
+    height: 500px;
     width: 100%;
 }
 
@@ -402,7 +411,19 @@ aside {
 
 .img_big_card {
     height: 90%;
-    max-width: 100%;
+    width: auto;
+}
+
+.big_card_span_img_1 {
+    height: 90%;
+    background-image: url("../img/reno-laithienne.jpg");
+    background-size: cover;
+}
+
+.big_card_span_img_2 {
+    height: 90%;
+    background-image: url("../img/kilyan-sockalingum.jpg");
+    background-size: cover;
 }
 
 .h3_activity {
