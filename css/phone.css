@@ -21,46 +21,22 @@ body {
 
     /* Barre de navigation */
 
-
-.container_nav {
+nav {
     display: flex;
-    align-content: flex-start;
-    width: 100%;
-}  
+}
 
 .img_reservia {
-    width: 50px;
+    width: 150px;
+    padding: 0px;
 }
 
 ul {
-    margin-block-start: 0px;
-    margin-top: 0px;
+    padding: 0px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    text-decoration: none;
-    list-style-type: none;
-    padding-right: 80px;
-    flex-grow: 1;
+    flex-wrap: wrap-reverse;
 }
 
-li {
-    padding-top: 50px;
-}
 
-.hosting_nav {
-    border-top: 2px solid #0065FC;
-}
-
-    .singin_nav {
-    padding-left: 70px;
-}
-
-.activity_nav {
-    padding-left: 70px;
-}
 
 
     /* Header */
@@ -358,11 +334,20 @@ aside {
 
 .card_aside {
     display: flex;
-    width: 100%;
-    height: 150px;
+    width: 95%;
+    height: 145px;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 5px 5px 20px #d1d1d1;
-    background-color: coral;
+    margin-bottom: 12px;
+}
+
+.span_img_aside {
+    height: 100%;
+    min-width: 40%;
+    background-image: url("../img/medium/emile-guillemot.jpg");
+    background-size: cover;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
 .aside_column {
@@ -374,7 +359,10 @@ aside {
 
 .container_stars {
     display: flex;
+    align-items: flex-end;
+    padding-bottom: 15px;
     flex-wrap: nowrap;
+    flex-grow: 3;
 }
 
 .h_aside {
@@ -393,16 +381,15 @@ aside {
 
 .activity {
     display: flex;
-    justify-content: space-between;
-    height: 500px;
+    flex-direction: column;
     width: 100%;
 }
 
 .all_card_activity {
     display: flex;
-    justify-content: space-between;
-    width: 48.5%;
-    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
 .big_card{
@@ -410,18 +397,13 @@ aside {
     flex-direction: column;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 5px 5px 20px #d1d1d1;
-    overflow: hidden;
-    height: 100%;
-    width: 47%;
-}
-
-.img_big_card {
-    height: 90%;
-    width: auto;
+    width: 90%;
+    overflow: visible;
+    margin-bottom: 25px;
 }
 
 .big_card_span_img_1 {
-    height: 90%;
+    height: 135px;
     background-image: url("../img/reno-laithienne.jpg");
     background-size: cover;
 }
@@ -433,7 +415,7 @@ aside {
 }
 
 .h3_activity {
-    margin-bottom: 0px;
+    display: block;
     padding-top: 13px;
     padding-left: 10px;
 }
@@ -441,8 +423,9 @@ aside {
 .small_cards {
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-between;
-    width: 47%;
+    width: 100%;
 
 }
 
@@ -452,7 +435,16 @@ aside {
     border-radius: 20px 20px 20px 20px;
     overflow: hidden;
     box-shadow: 5px 5px 20px #d1d1d1;
-    height: 47%;
+    height: 135px;
+    width: 90%;
+    margin-bottom: 25px;
+}
+
+.small_card_span_img {
+    height: 135px;
+    width: 100%;
+    background-image: url("../img/paul-herman.jpg");
+    background-size: contain;
 }
 
 .img_small_card {
