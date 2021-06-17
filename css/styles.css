@@ -15,6 +15,7 @@
 body {
     padding: 0px;
     margin: 0px;
+    background-color: white;
     font-family: Raleway;
 }
 
@@ -95,7 +96,6 @@ header {
 }
 
 .img_hidden {
-    display: none;
 }
 
 .search_input {
@@ -106,7 +106,6 @@ header {
 }
 
 .search_input::placeholder {
-    font-family: "ralewaythin";
     color: black;
     font-size: larger;
     font-weight: bold;
