@@ -26,7 +26,7 @@ nav {
 }
 
 .img_reservia {
-    width: 150px;
+    width: 95px;
     padding: 0px;
 }
 
@@ -43,6 +43,14 @@ ul {
 header {
     margin-left: 20px;
     margin-right: 20px;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+.p_header {
+    margin-bottom: 30px;
 }
 
 /* Champ de recherche */
@@ -122,11 +130,9 @@ header {
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
+    margin-bottom: 15px;
 }
 
-.filter_title {
-
-}
 
 .filter_content {
     display: flex;
@@ -170,9 +176,6 @@ header {
     margin-bottom: 15px;
 }
 
-.text_filter {
-}
-
 
 .img_filter {
     height: 17px;
@@ -206,6 +209,7 @@ header {
 
 .info_text {
     padding-left: 12px;
+    margin-bottom: 0px;
 }
 
 
@@ -229,9 +233,15 @@ main {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
+    margin-top: 40px;
     margin-bottom: 65px;
     width: 100%;
     overflow: hidden;
+}
+
+.hosting_title {
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .section_hosting {
@@ -254,14 +264,17 @@ h4 {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    overflow: hidden;
 
+}
+
+.hosting_more {
+    margin-left: 20px;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    width: 95%;
+    width: 90%;
     height: 200px;
     background-color: white;
     border-radius: 20px 20px 20px 20px;
@@ -334,6 +347,8 @@ aside {
     justify-content: space-between;
     align-items: baseline;
     margin-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .all_card_container {
@@ -347,7 +362,7 @@ aside {
 
 .card_aside {
     display: flex;
-    width: 95%;
+    width: 90%;
     height: 145px;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 5px 5px 20px #d1d1d1;
@@ -392,10 +407,15 @@ aside {
     width: 100%;
 }
 
+.h2_activity {
+    margin-left: 20px;
+}
+
 .activity {
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: 100%;
 }
 
 .all_card_activity {
@@ -411,7 +431,7 @@ aside {
     border-radius: 20px 20px 20px 20px;
     box-shadow: 5px 5px 20px #d1d1d1;
     width: 90%;
-    overflow: visible;
+    overflow: hidden;
     margin-bottom: 25px;
 }
 
@@ -470,28 +490,28 @@ aside {
 /* Pied de page */
 
 footer {
-    height: 218px;
-    margin-top: 115px;
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-bottom: 50px;
     background-color: #F2F2F2;
     display: flex;
-    display: none;
-
-
+    flex-direction: column;
+    height: 100%;
 }
 
 .container_footer_1 {
-    margin-left: 50px;
+    margin-left: 0px;
     margin-top: 50px;
 }
 
 .container_footer_2 {
-    margin-left: 227px;
+    margin-left: 0px;
     margin-top: 50px;
 }
 
 .container_footer_3 {
     margin-top: 50px;
-    margin-left: 290px;
+    margin-left: 0px;
 }
 
 .h3_footer {
