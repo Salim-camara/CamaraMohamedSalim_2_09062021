@@ -96,6 +96,7 @@ header {
 }
 
 .img_hidden {
+    display: none;
 }
 
 .search_input {
@@ -107,11 +108,15 @@ header {
 
 .search_input::placeholder {
     color: black;
+    padding: 17px;
     font-size: larger;
     font-weight: bold;
 }
 
 .search_recherche {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: none;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -121,16 +126,6 @@ header {
     width: 135px;
     height: 50px;
 } 
-
-.fas {
-    width: 100px;
-    height: 100px;
-}
-
-.fa-bone {
-    width: 100px;
-    height: 100px;
-}
 
 
 /* Filtre */
@@ -281,6 +276,43 @@ h4 {
     
 }
 
+.hosting_img_span {
+    background-size: cover;
+    background-position-y: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: 115px;
+    margin-bottom: 12px;
+}
+        /* les différents hôtels */
+.cannebière {
+    background-image: url("../img/medium/marcus-loke.jpg");
+    background-position-y: 50%;
+}
+
+.port {
+    background-image: url("../img/medium/fred-kleber.jpg");
+}
+
+.mouettes {
+    background-image: url("../img/medium/reisetopia.jpg");
+}
+
+.mer {
+    background-image: url("../img/medium/annie-spratt.jpg");
+    background-position-y: 60%;
+}
+
+.panier {
+    background-image: url("../img/medium/nicate-lee-kT.jpg");
+}
+
+.amina {
+    background-image: url("../img/medium/febrian-zakaria.jpg");
+    background-position-y: 60%;
+}
+
 .img_card {
     height: 115px;
     width: auto;
@@ -350,6 +382,7 @@ aside {
 
 .card_aside {
     display: flex;
+    overflow: auto;
     width: 100%;
     height: 28%;
     border-radius: 20px 20px 20px 20px;
@@ -358,10 +391,31 @@ aside {
     padding: 5px;
 }
 
+.span_img_aside {
+    height: 100%;
+    min-width: 40%;
+    background-size: cover;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.matin {
+    background-image: url("../img/medium/emile-guillemot.jpg");
+    background-position-x: 50%;
+}
+
+.coeur {
+    background-image: url("../img/medium/aw-creative.jpg");
+}
+
+.blanc {
+    background-image: url("../img/medium/febrian-zakaria-.jpg");
+    background-position-y: 50%;
+}
+
 .aside_column {
     display: flex;
     flex-direction: column;
-    height: auto;
     margin-left: 20px;
 }
 
@@ -417,12 +471,14 @@ aside {
     height: 90%;
     background-image: url("../img/reno-laithienne.jpg");
     background-size: cover;
+    background-position-x: 100%;
 }
 
 .big_card_span_img_2 {
     height: 90%;
     background-image: url("../img/kilyan-sockalingum.jpg");
     background-size: cover;
+    background-position-x: 50%;
 }
 
 .h3_activity {
@@ -436,7 +492,29 @@ aside {
     flex-direction: column;
     justify-content: space-between;
     width: 47%;
+}
 
+.small_card_span_img {
+    height: 80%;
+    width: 100%;
+    background-size: cover;
+}
+
+.fort {
+    background-image: url("../img/paul-herman.jpg");
+    background-position-y: 50%;
+}
+
+.frioul {
+    background-image: url("../img/kevin-hikari.jpg");
+}
+
+.dame {
+    background-image: url("../img/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+}
+
+.parc {
+    background-image: url("../img/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
 }
 
 .lonely_small_card {

@@ -109,19 +109,11 @@ h1 {
 }
 
 .img_hidden {
+    display: block;
     height: 20px;
     width: auto;
 }
 
-.fas {
-    width: 100px;
-    height: 100px;
-}
-
-.fa-bone {
-    width: 100px;
-    height: 100px;
-}
 
 
 /* Filtre */
@@ -164,6 +156,7 @@ h1 {
 
 .filter_familial {
     margin-bottom: 15px;
+    margin-right: 15px;
 }
 
 .filter_economique {
@@ -284,13 +277,40 @@ h4 {
 }
 
 .hosting_img_span {
-    background-image: url("../img/medium/marcus-loke.jpg");
     background-size: cover;
+    background-position-y: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     width: 100%;
     height: 115px;
     margin-bottom: 12px;
+}
+        /* les différents hôtels */
+.cannebière {
+    background-image: url("../img/medium/marcus-loke.jpg");
+    background-position-y: 50%;
+}
+
+.port {
+    background-image: url("../img/medium/fred-kleber.jpg");
+}
+
+.mouettes {
+    background-image: url("../img/medium/reisetopia.jpg");
+}
+
+.mer {
+    background-image: url("../img/medium/annie-spratt.jpg");
+    background-position-y: 60%;
+}
+
+.panier {
+    background-image: url("../img/medium/nicate-lee-kT.jpg");
+}
+
+.amina {
+    background-image: url("../img/medium/febrian-zakaria.jpg");
+    background-position-y: 60%;
 }
 
 .img_card {
@@ -372,10 +392,23 @@ aside {
 .span_img_aside {
     height: 100%;
     min-width: 40%;
-    background-image: url("../img/medium/emile-guillemot.jpg");
     background-size: cover;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
+}
+
+.matin {
+    background-image: url("../img/medium/emile-guillemot.jpg");
+    background-position-x: 50%;
+}
+
+.coeur {
+    background-image: url("../img/medium/aw-creative.jpg");
+}
+
+.blanc {
+    background-image: url("../img/medium/febrian-zakaria-.jpg");
+    background-position-y: 50%;
 }
 
 .aside_column {
@@ -439,12 +472,42 @@ aside {
     height: 135px;
     background-image: url("../img/reno-laithienne.jpg");
     background-size: cover;
+    background-position-x: 100%;
+    background-position-y: 80%;
 }
 
 .big_card_span_img_2 {
-    height: 90%;
+    height: 135px;
     background-image: url("../img/kilyan-sockalingum.jpg");
     background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 80%;
+}
+
+.small_card_span_img {
+    height: 135px;
+    width: 100%;
+    background-size: cover;
+}
+
+.fort {
+    background-image: url("../img/paul-herman.jpg");
+    background-position-y: 50%;
+}
+
+.frioul {
+    background-image: url("../img/kevin-hikari.jpg");
+    background-position-y: 40%;
+}
+
+.dame {
+    background-image: url("../img/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+    background-position-y: 20%;
+}
+
+.parc {
+    background-image: url("../img/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+    background-position-y: 40%;
 }
 
 .h3_activity {
@@ -473,12 +536,12 @@ aside {
     margin-bottom: 25px;
 }
 
-.small_card_span_img {
+/* .small_card_span_img {
     height: 135px;
     width: 100%;
     background-image: url("../img/paul-herman.jpg");
     background-size: contain;
-}
+} */
 
 .img_small_card {
     height: 79%;
