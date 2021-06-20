@@ -167,7 +167,14 @@ header {
     height: 49px;
     display: flex;
     align-items: center;
+    transform: scale(1);
+    transition: all 0.2s;
+}
 
+.filter:hover {
+    transform: scale(1.04);
+    background-color: #0065FC;
+    color: white;
 }
 
 .text_filter {
