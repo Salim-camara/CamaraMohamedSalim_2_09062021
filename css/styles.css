@@ -263,6 +263,11 @@ h4 {
 
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .card {
     display: flex;
     flex-direction: column;
@@ -417,11 +422,15 @@ aside {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
+    height: 100%;
 }
 
 .container_stars {
     display: flex;
     flex-wrap: nowrap;
+    flex-grow: 3;
+    align-items: flex-end;
+    margin-bottom: 10px;
 }
 
 .h_aside {
