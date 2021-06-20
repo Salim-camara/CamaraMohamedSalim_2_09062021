@@ -1,0 +1,581 @@
+/* Police */
+
+@font-face {
+font-family: Raleway;
+src: url("../fonts/Raleway-Regular.ttf");
+}
+
+@font-face {
+    font-family: Raleway;
+    font-weight: bold;
+    src: url("../fonts/Raleway-Bold.ttf");
+}
+
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Raleway;
+    background-color: coral;
+}
+
+
+    /* Barre de navigation */
+
+nav {
+    display: flex;
+}
+
+.img_reservia {
+    width: 95px;
+    padding: 0px;
+}
+
+ul {
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+
+
+
+    /* Header */
+header {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+.p_header {
+    margin-bottom: 30px;
+}
+
+/* Champ de recherche */
+.container_search {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid #F2F2F2;
+    border-radius: 20px 20px 20px 20px;
+    height: 50px;
+    width: 70%;
+}  
+
+.search_loc {
+    border: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: #F2F2F2;
+    height: 100%;
+}
+
+
+.img_loc {
+    height: 10px;
+    width: auto;
+    
+}
+
+.search_input {
+    width: 100%;
+    background-color: white;
+    border: none;
+}
+
+
+.search_input::placeholder {
+    padding-left: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.search_recherche {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #0065FC;
+    color: white;
+    width: 65px;
+    height: 100%;
+} 
+
+.text_hidden {
+    display: none;
+}
+
+.img_hidden {
+    display: block;
+    height: 20px;
+    width: auto;
+}
+
+
+
+/* Filtre */
+.container_filter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+
+.filter_content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0%;
+}
+
+.filter_logo {
+    height: 45px;
+    width: 45px;
+    background-color: #DEEBFF;
+    border: none;
+    border-radius: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter {
+    background-color: white;
+    border: 2px solid #F2F2F2;
+    border-left: none;
+    border-radius: 50px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+
+.filter_familial {
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+.filter_economique {
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+.filter_romantique {
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+
+.img_filter {
+    height: 17px;
+}
+
+
+/* Information */
+
+.container_info {
+    display: flex;
+    align-items: center;
+
+}
+
+.container_info_img {
+    border: 1px solid #F2F2F2;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 23px;
+    width: 23px;
+}
+
+.info_img {
+    height: 12px;
+    width: auto;
+}
+
+.info_text {
+    padding-left: 12px;
+    margin-bottom: 0px;
+}
+
+
+    /* Corps de page */
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+    /* Hébergement à Marseille (section principale) */
+
+.star {
+    height: 12px;
+    width: auto;
+}
+
+.section_1 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 65px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hosting_title {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.section_hosting {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    width: 100%;;
+}
+
+h4 {
+    display: block;
+    margin-block-end: 0px;
+    margin-top: 5px;
+}
+
+.hosting_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.hosting_more {
+    margin-left: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 200px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 5px 5px 20px #d1d1d1;
+    margin-bottom: 25px;
+    padding: 5px;
+}
+
+.hosting_img_span {
+    background-size: cover;
+    background-position-y: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: 115px;
+    margin-bottom: 12px;
+}
+        /* les différents hôtels */
+.cannebière {
+    background-image: url("../img/medium/marcus-loke.jpg");
+    background-position-y: 50%;
+}
+
+.port {
+    background-image: url("../img/medium/fred-kleber.jpg");
+}
+
+.mouettes {
+    background-image: url("../img/medium/reisetopia.jpg");
+}
+
+.mer {
+    background-image: url("../img/medium/annie-spratt.jpg");
+    background-position-y: 60%;
+}
+
+.panier {
+    background-image: url("../img/medium/nicate-lee-kT.jpg");
+}
+
+.amina {
+    background-image: url("../img/medium/febrian-zakaria.jpg");
+    background-position-y: 60%;
+}
+
+.img_card {
+    margin-bottom: 12px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+h3 {
+    display: block;
+    margin-block-start: 0px;
+    margin-bottom: 8px;
+}
+
+.price {
+    display: block;
+    margin-block-start: 0px;
+    margin-bottom: 6px;
+}
+
+.container_stars {
+    margin-top: 0px;
+}
+
+/* Aside, les plus populaires */
+.img_graph {
+    width: 22px;
+    height: 18px;
+}
+
+.img_card_aside {
+    width: 40%;
+    height: 100%;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+aside {
+    background-color: #F2F2F2;
+    height: auto;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px 20px 20px 20px;
+
+}
+
+.aside_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.all_card_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+
+}
+
+.card_aside {
+    display: flex;
+    width: 70%;
+    height: 145px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 5px 5px 20px #d1d1d1;
+    margin-bottom: 12px;
+}
+
+.span_img_aside {
+    height: 100%;
+    min-width: 40%;
+    background-size: cover;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.matin {
+    background-image: url("../img/medium/emile-guillemot.jpg");
+    background-position-x: 50%;
+}
+
+.coeur {
+    background-image: url("../img/medium/aw-creative.jpg");
+}
+
+.blanc {
+    background-image: url("../img/medium/febrian-zakaria-.jpg");
+    background-position-y: 50%;
+}
+
+.aside_column {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-left: 20px;
+}
+
+.container_stars {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 15px;
+    flex-wrap: nowrap;
+    flex-grow: 3;
+}
+
+.h_aside {
+    display: block;
+    margin-block-start: 15px;
+}
+
+
+/* Activités à Marseille */
+
+.section_2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.h2_activity {
+    margin-left: 20px;
+}
+
+.activity {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.all_card_activity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.big_card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 5px 5px 20px #d1d1d1;
+    width: 90%;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.big_card_span_img_1 {
+    height: 135px;
+    background-image: url("../img/reno-laithienne.jpg");
+    background-size: cover;
+    background-position-x: 100%;
+    background-position-y: 80%;
+}
+
+.big_card_span_img_2 {
+    height: 135px;
+    background-image: url("../img/kilyan-sockalingum.jpg");
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 80%;
+}
+
+.small_card_span_img {
+    height: 135px;
+    width: 100%;
+    background-size: cover;
+}
+
+.fort {
+    background-image: url("../img/paul-herman.jpg");
+    background-position-y: 50%;
+}
+
+.frioul {
+    background-image: url("../img/kevin-hikari.jpg");
+    background-position-y: 40%;
+}
+
+.dame {
+    background-image: url("../img/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+    background-position-y: 20%;
+}
+
+.parc {
+    background-image: url("../img/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+    background-position-y: 40%;
+}
+
+.h3_activity {
+    display: block;
+    padding-top: 13px;
+    padding-left: 10px;
+}
+
+.small_cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.lonely_small_card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px 20px 20px 20px;
+    overflow: hidden;
+    box-shadow: 5px 5px 20px #d1d1d1;
+    height: 135px;
+    width: 90%;
+    margin-bottom: 25px;
+}
+
+/* .small_card_span_img {
+    height: 135px;
+    width: 100%;
+    background-image: url("../img/paul-herman.jpg");
+    background-size: contain;
+} */
+
+.img_small_card {
+    height: 79%;
+    width: 100%;
+}
+
+
+
+/* Pied de page */
+
+footer {
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.container_footer_1 {
+    margin-left: 0px;
+    margin-top: 50px;
+}
+
+.container_footer_2 {
+    margin-left: 0px;
+    margin-top: 50px;
+}
+
+.container_footer_3 {
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+.h3_footer {
+    font-weight: 900;
+}
