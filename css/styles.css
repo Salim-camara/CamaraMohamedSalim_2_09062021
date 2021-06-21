@@ -22,62 +22,66 @@ body {
 
   /* Nav barre */
 
-
-.container_nav {
-    display: flex;
-    align-content: flex-start;
-    width: 100%;
+  .img_réservia {
+    width: 95px;
+    position: absolute;
+    left: 50px;
+    top: 40px;
 }  
 
-.img_reservia {
-    width: 94px;
-    height: auto;
-    padding-left: 50px;
-    padding-top: 50px;
+nav {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 ul {
-    display: block;
-    margin-block-start: 0px;
-    margin-top: 0px;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-    text-decoration: none;
+    align-items: flex-end;
     list-style-type: none;
-    padding-right: 80px;
-    flex-grow: 1;
+    margin-top: 0px;
+    margin-right: 20px;
 }
 
-li {
+.singin {
+    margin-left: 70px;
+    margin-top: 50px;
+    color: #0065FC;
+    font-weight: bold;
+}
+
+.nav_hosting {
+    border-top: 2px solid #0065FC;
     padding-top: 50px;
 }
 
-.hosting_nav {
-    border-top: 2px solid #0065FC;
+.nav_activity {
+    margin-left: 70px;
+    margin-top: 50px;
 }
 
-    .singin_nav {
-    padding-left: 70px;
+.nav_span {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
 }
-
-.activity_nav {
-    padding-left: 70px;
-}
-
 
   /* Header */
 
-
-/* Champ de recherche */
-header {
+  header {
     margin-left: 50px;
     margin-right: 50px;
 }
 
+h1 {
+    margin-top: 55px;
+}
+
+/* Champ de recherche */
+
 .container_search {
     display: flex;
-    ;
 }  
 
 .search_loc {

@@ -21,23 +21,32 @@ body {
 
     /* Barre de navigation */
 
-nav {
-    display: flex;
-}
-
-.img_reservia {
+.img_réservia {
     width: 95px;
-    padding: 0px;
+    position: absolute;
+    left: 50px;
+}  
+
+nav {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 ul {
-    padding: 0px;
     display: flex;
-    flex-wrap: wrap-reverse;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    width: 100%;
+    list-style-type: none;
 }
 
-
-
+.nav_span {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
 
     /* Header */
 header {
