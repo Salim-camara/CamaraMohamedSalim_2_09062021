@@ -22,11 +22,11 @@ body {
 
   /* Nav barre */
 
-  .img_réservia {
-    width: 95px;
-    position: absolute;
-    left: 50px;
-    top: 40px;
+.img_réservia {
+width: 95px;
+position: absolute;
+left: 50px;
+top: 40px;
 }  
 
 nav {

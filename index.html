@@ -8,8 +8,8 @@
 
     <!-- Feuilles CSS -->
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" media="all and (max-width: 699px)" href="css/phone.css">
-    <link rel="stylesheet" media="all and (max-width: 1051px) and (min-width: 700px)" href="css/tablette.css">
+    <link rel="stylesheet" media="all and (max-width: 700px)" href="css/phone.css">
+    <link rel="stylesheet" media="all and (max-width: 1051px) and (min-width: 701px)" href="css/tablette.css">
 <body>
 
      <!-- En tête -->
@@ -21,8 +21,12 @@
         <nav>
             <ul>
                 <span class="nav_span">
-                    <li class="nav_hosting">Hébergements</li>
-                    <li class="nav_activity">Activités</li>
+                    <li class="nav_hosting">
+                        <a href="#hosting">Hébergements</a>
+                    </li>
+                    <li class="nav_activity">
+                        <a href="#activity">Activités</a>
+                    </li>
                 </span>    
                 <li class="singin">S'inscrire</li>
             </ul>
@@ -105,7 +109,7 @@
         <section class="section_1">
             <section class="section_hosting">
 
-                <div class="hosting_title">
+                <div class="hosting_title" id="hosting">
                     <h2>Hébergements à Marseille</h2>
                 </div>
                 <div class="hosting_content">
@@ -270,7 +274,7 @@
         
         <!-- Activités à Marseille -->
         <section class="section_2">
-            <h2 class="h2_activity">Activités à Marseille</h2>
+            <h2 class="h2_activity" id="activity">Activités à Marseille</h2>
 
             <div class="activity">
                 <div class="all_card_activity">
