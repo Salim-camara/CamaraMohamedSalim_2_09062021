@@ -136,9 +136,6 @@ h1 {
 }
 
 
-
-
-
 /* Filtre */
 .container_filter {
     display: flex;
@@ -402,7 +399,6 @@ aside {
 .card_aside {
     display: flex;
     width: 70%;
-    height: 145px;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 5px 5px 20px #d1d1d1;
     margin-bottom: 12px;
@@ -592,4 +588,5 @@ footer {
 
 .h3_footer {
     font-weight: 900;
+    margin-left: 0px;
 }

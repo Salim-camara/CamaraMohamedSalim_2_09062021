@@ -131,7 +131,6 @@ h1 {
     border: none;
 }
 
-
 .search_input::placeholder {
     padding-left: 20px;
     color: black;
@@ -158,7 +157,6 @@ h1 {
     display: block;
     color: white;
 }
-
 
 
 /* Filtre */
@@ -216,7 +214,6 @@ h1 {
     margin-right: 10px;
     margin-bottom: 15px;
 }
-
 
 .img_filter {
     height: 17px;
@@ -433,7 +430,6 @@ aside {
 .card_aside {
     display: flex;
     width: 90%;
-    height: 145px;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 5px 5px 20px #d1d1d1;
     margin-bottom: 12px;
@@ -587,13 +583,6 @@ aside {
     margin-bottom: 25px;
 }
 
-/* .small_card_span_img {
-    height: 135px;
-    width: 100%;
-    background-image: url("../img/paul-herman.jpg");
-    background-size: contain;
-} */
-
 .img_small_card {
     height: 79%;
     width: 100%;
@@ -630,4 +619,5 @@ footer {
 
 .h3_footer {
     font-weight: 900;
+    margin-left: 0px;
 }
