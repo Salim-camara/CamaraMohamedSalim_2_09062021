@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>P2_Camara_MohamedSalim</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/59156f5274.js" crossorigin="anonymous"></script>
 
     <!-- Feuilles CSS -->
     <link rel="stylesheet" href="css/styles.css">
@@ -19,18 +20,14 @@
         <img src="img/reservia.png" alt="Logo réservia" class="img_réservia">
 
         <nav>
-            <ul>
-                <span class="nav_span">
-                    <li class="nav_hosting">
-                        <a href="#hosting">Hébergements</a>
-                    </li>
-                    <li class="nav_activity">
-                        <a href="#activity">Activités</a>
-                    </li>
-                </span>    
+            <ul class="ul_nav">
+                <li class="nav_hosting">Hébergements</li>
+                <li class="nav_activity">Activités</li>
+            </ul>
+            <ul class="ul_singin">
                 <li class="singin">S'inscrire</li>
             </ul>
-        </nav>
+        </nav> 
 
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
 
@@ -40,7 +37,7 @@
 
         <div class="container_search">
             <button class="search_loc">
-                <img src="img/loc_noir.png" alt="Localisation" class="img_loc">
+                <i class="fa fa-map-marker-alt"></i>
             </button>
             <input type="text" class="search_input" placeholder="Marseille, France">
             <button class="search_recherche" value="Rechercher">
@@ -58,7 +55,7 @@
             <div class="filter_content">
                 <div class="filter filter_economique">
                     <span class="filter_logo">
-                        <img src="img/d-money.png" alt="Billet" class="img_filter">
+                        <i class="fas fa-money-bill-wave"></i>
                     </span>
                     <span class="fitter_textmoney">
                         <p class="text_filter">Economique</p>
@@ -66,7 +63,7 @@
                 </div>
                 <div class="filter filter_familial">
                     <span class="filter_logo">
-                        <img src="img/d-body.png" alt="Enfant" class="img_filter">
+                        <i class="fas fa-child"></i>
                     </span>
                     <span class="fitter_textbody">
                         <p class="text_filter">Familial</p>
@@ -74,7 +71,7 @@
                 </div>
                 <div class="filter filter_romantique">
                     <span class="filter_logo">
-                        <img src="img/d-heart.png" alt="Coeur" class="img_filter">
+                        <i class="fas fa-heart"></i>
                     </span>
                     <span class="fitter_textheart">
                         <p class="text_filter">Romantique</p>
@@ -82,7 +79,7 @@
                 </div>
                 <div class="filter">
                     <span class="filter_logo">
-                        <img src="img/d-dog.png" alt="Chien" class="img_filter">
+                        <i class="fas fa-dog"></i>
                     </span>
                     <span class="fitter_textdog">
                         <p class="text_filter">Animaux autorisés</p>
@@ -93,7 +90,7 @@
 
         <div class="container_info">
             <span class="container_info_img">
-                <img src="img/d-info.png" alt="Information" class="info_img">
+                <i class="fas fa-info"></i>
             </span>
             <p class="info_text">Plus de 500 logements sont disponible dans cette ville</p>
         </div>
@@ -211,7 +208,7 @@
                 <!-- Les plus populaires -->
                 <div class="aside_title">
                     <h2>Les plus populaires</h2>
-                    <img src="img/d-graph.png" alt="Popularité" class="img_graph">
+                    <i class="fa fa-chart-line"></i>
                 </div>
 
                 <!-- Cartes les plus populaires -->

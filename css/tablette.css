@@ -26,45 +26,41 @@ body {
     position: absolute;
     left: 50px;
     top: 40px;
- }  
+}  
     
 nav {
-    position: relative;
     width: 100%;
     display: flex;
     justify-content: flex-end;
 }
 
 ul {
-    display: flex;
-    align-items: flex-end;
     list-style-type: none;
-    margin-top: 0px;
-    margin-right: 20px;
+    margin: 0px;
 }
 
-.singin {
-    margin-left: 70px;
-    margin-top: 50px;
-    color: #0065FC;
-    font-weight: bold;
-}
-
-.nav_hosting {
-    border-top: 2px solid #0065FC;
-    padding-top: 50px;
+.ul_nav {
+    display: flex;
 }
 
 .nav_activity {
     margin-left: 70px;
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
-.nav_span {
-    display: flex;
-    flex-wrap: nowrap;
-    width: 100%;
+.nav_hosting {
+    padding-top: 50px;
+    border-top: 2px solid #0065FC;
 }
+
+.singin {
+    color: #0065FC;
+    font-weight: bold;
+    padding: 0px;
+    margin-left: 30px;
+    padding-top: 50px;
+}
+
     /* Header */
 header {
     margin-left: 20px;
