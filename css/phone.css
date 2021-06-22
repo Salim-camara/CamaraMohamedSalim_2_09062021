@@ -156,8 +156,7 @@ h1 {
 
 .img_hidden {
     display: block;
-    height: 20px;
-    width: auto;
+    color: white;
 }
 
 
@@ -297,7 +296,7 @@ main {
 
 h4 {
     display: block;
-    margin-block-end: 0px;
+    margin-bottom: 0px;
     margin-top: 5px;
 }
 
@@ -332,7 +331,7 @@ h4 {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     width: 100%;
-    height: 115px;
+    height: 170px;
     margin-bottom: 12px;
 }
         /* les différents hôtels */
@@ -371,18 +370,19 @@ h4 {
 
 h3 {
     display: block;
-    margin-block-start: 0px;
-    margin-bottom: 8px;
+    margin-top: 0px;
+    margin-bottom: 3px;
 }
 
 .price {
     display: block;
-    margin-block-start: 0px;
-    margin-bottom: 6px;
+    margin-top: 3px;
+    margin-bottom: 5px;
 }
 
 .container_stars {
     margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 /* Aside, les plus populaires */
@@ -478,7 +478,7 @@ aside {
 
 .h_aside {
     display: block;
-    margin-block-start: 15px;
+    margin-top: 15px;
 }
 
 

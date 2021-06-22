@@ -270,7 +270,6 @@ main {
 
 h4 {
     display: block;
-    margin-block-end: 0px;
     margin-top: 5px;
 }
 
@@ -346,18 +345,22 @@ a {
 
 h3 {
     display: block;
-    margin-block-start: 0px;
-    margin-bottom: 8px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 7px;
 }
 
 .price {
     display: block;
-    margin-block-start: 0px;
+    margin-top: 5px;
     margin-bottom: 6px;
+    margin-left: 7px;
 }
 
 .container_stars {
     margin-top: 0px;
+    margin-left: 10px;
+    margin-left: 7px;
 }
 
 /* Aside, les plus populaires */
@@ -458,7 +461,7 @@ aside {
 
 .h_aside {
     display: block;
-    margin-block-start: 15px;
+    margin-top: 15px;
 }
 
 
