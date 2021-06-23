@@ -21,13 +21,6 @@ body {
 
     /* Barre de navigation */
 
-.img_réservia {
-    width: 95px;
-    position: absolute;
-    left: 20px;
-    top: 30px;
-}  
-
 nav {
     width: 100%;
     display: flex;
@@ -332,7 +325,7 @@ h4 {
     margin-bottom: 12px;
 }
         /* les différents hôtels */
-.cannebière {
+.cannebiere {
     background-image: url("../img/medium/marcus-loke.jpg");
     background-position-y: 50%;
 }
