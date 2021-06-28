@@ -503,14 +503,14 @@ aside {
 }
 
 .big_card_span_img_1 {
-    height: 90%;
+    height: 89%;
     background-image: url("../img/reno-laithienne.jpg");
     background-size: cover;
     background-position-x: 100%;
 }
 
 .big_card_span_img_2 {
-    height: 90%;
+    height: 89%;
     background-image: url("../img/kilyan-sockalingum.jpg");
     background-size: cover;
     background-position-x: 50%;
@@ -520,6 +520,30 @@ aside {
     margin-bottom: 0px;
     padding-top: 13px;
     padding-left: 10px;
+}
+
+.h3_pomege {
+    padding-top: 15px;
+}
+
+.h3_frioul {
+    padding-top: 15px;
+}
+
+.h3_vieux {
+    padding-top: 17px;
+}
+
+.h3_parc {
+    padding-top: 17px;
+}
+
+.h3_dame {
+    padding-top: 15px;
+}
+
+.h3_parclong {
+    padding-top: 16px;
 }
 
 .small_cards {
@@ -542,14 +566,17 @@ aside {
 
 .frioul {
     background-image: url("../img/kevin-hikari.jpg");
+    height: 70%;
 }
 
 .dame {
     background-image: url("../img/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+    height: 73%;
 }
 
 .parc {
     background-image: url("../img/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+    height: 78%;
 }
 
 .lonely_small_card {
@@ -559,6 +586,22 @@ aside {
     overflow: hidden;
     box-shadow: 5px 5px 20px #d1d1d1;
     height: 47%;
+}
+
+.pomege_card {
+    height: 55%;
+}
+
+.frioul_card {
+    height: 35%;
+}
+
+.dame_card {
+    height: 40%;
+}
+
+.parc_card {
+    height: 50%;
 }
 
 .img_small_card {

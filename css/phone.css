@@ -508,7 +508,7 @@ aside {
 }
 
 .big_card_span_img_1 {
-    height: 135px;
+    height: 100px;
     background-image: url("../img/reno-laithienne.jpg");
     background-size: cover;
     background-position-x: 100%;
@@ -516,7 +516,7 @@ aside {
 }
 
 .big_card_span_img_2 {
-    height: 135px;
+    height: 100px;
     background-image: url("../img/kilyan-sockalingum.jpg");
     background-size: cover;
     background-position-x: 50%;
